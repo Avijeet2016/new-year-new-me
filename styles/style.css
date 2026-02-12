@@ -127,4 +127,46 @@
 }
 .mindset__title {
     margin-bottom: 24px;
+    color: #FFFFFF;
+}
+.footer {
+    background-color: #151414;
+}
+.footer__content{
+    /* margin: 130px auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 130px 0;
+}
+.footer-left {
+    width: 42%;
+    max-width: 485px;
+}
+.footer__title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.footer__text {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer-right {
+    width: 28%;
+    max-width: 325px;
+}
+.footer-right__subscribe {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+.footer-right__email {
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: transparent;
 }
