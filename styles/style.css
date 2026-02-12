@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.btn {
+    padding: 21px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-primary {
+    background-color: #F15B22;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+} 
+.text-primary {
+    color: #151414;
+}
+.text-secondary {
+    color: #444343;
+}
+
+.header {
+    background-image: url('../images/banner/banner1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.banner {
+    width: 46%;
+    max-width: 525px;
+    text-align: end;
+    margin: 216px 230px 166px;
+}
+.banner__title {
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 24px;
+}
+.banner__text {
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.year {
+    margin-top: 131px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+}
+
+.year__content {
+    width: 36%;
+    max-width: 416px;
+}
+.year__title {
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.year__text {
+    margin-bottom: 16px;
+}
+.year__items {
+    line-height: 26px;
+}
+.year__list {
+    list-style-type: none;
+}
+.fa-check {
+    color: #16D887;
+}
