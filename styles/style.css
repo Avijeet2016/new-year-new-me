@@ -80,3 +80,24 @@
 .fa-check {
     color: #16D887;
 }
+
+.plans {
+    margin-top: 130px;
+}
+.plans__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+.plans-container-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plans-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
